@@ -1,0 +1,238 @@
+#find the odd or even between 0-100
+n=range(0,100)
+for x in n:
+  if x%2 ==0:
+    print(x, 'is even')
+  else:
+    print(x,'is odd')
+
+
+for x in range(3,200,4):
+  if x%3==0:
+    print(x,'is a factor of 3')
+  else:
+    print('x=',x,'the square root of' , x*x)
+
+ output:
+ ------------------------------------------------------------------------
+x is a factor of 3
+x= 7 the square root of 49
+x= 11 the square root of 121
+15 is a factor of 3
+x= 19 the square root of 361
+x= 23 the square root of 529
+27 is a factor of 3
+x= 31 the square root of 961
+x= 35 the square root of 1225
+39 is a factor of 3
+x= 43 the square root of 1849
+x= 47 the square root of 2209
+51 is a factor of 3
+x= 55 the square root of 3025
+x= 59 the square root of 3481
+63 is a factor of 3
+x= 67 the square root of 4489
+x= 71 the square root of 5041
+75 is a factor of 3
+x= 79 the square root of 6241
+x= 83 the square root of 6889
+87 is a factor of 3
+x= 91 the square root of 8281
+x= 95 the square root of 9025
+99 is a factor of 3
+x= 103 the square root of 10609
+x= 107 the square root of 11449
+111 is a factor of 3
+x= 115 the square root of 13225
+x= 119 the square root of 14161
+123 is a factor of 3
+x= 127 the square root of 16129
+x= 131 the square root of 17161
+135 is a factor of 3
+x= 139 the square root of 19321
+x= 143 the square root of 20449
+147 is a factor of 3
+x= 151 the square root of 22801
+x= 155 the square root of 24025
+159 is a factor of 3
+x= 163 the square root of 26569
+x= 167 the square root of 27889
+171 is a factor of 3
+x= 175 the square root of 30625
+x= 179 the square root of 32041
+183 is a factor of 3
+x= 187 the square root of 34969
+x= 191 the square root of 36481
+195 is a factor of 3
+x= 199 the square root of 39601
+---------------------------------------------------------------------------
+
+a=[1,2,3,4,5,6,7,8,9,10]
+b=[]
+for i in a:
+  if i%3 ==0:
+    continue
+  b.append(i)
+print(b)    
+
+output:
+-----------------------
+[1, 2, 4, 5, 7, 8, 10]
+-------------------------------------------------------------------
+c=[]
+for i in a:
+  if i%2==1:
+    continue
+  c.append(i)
+print(c)
+output:
+-----------------------------
+[2, 4, 6, 8, 10]
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
