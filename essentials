@@ -153,10 +153,53 @@ print(b[10:])
 []
 #because here we use the slicing that's why we get the empty list
 --------------------------------
+%s is used as a placeholder
+def extendlst(val, lst=[]):
+    lst.append(val)
+    return lst
 
+lst1=extendlst(10)
+lst2=extendlst(12,['raj'])
+lst3=extendlst('b')
 
+print("lst1=%s" % lst1)
+print("lst2=%s" %lst2)
+print("lst3=%s" %lst3)
 
+print(id(lst1))
+print(id(lst2))
+print(id(lst3))
+-------------------------------------------------------------
+ouput:
+lst1=[10, 'b']
+lst2=['raj', 12]
+lst3=[10, 'b']
+2446960465024
+2446960952384
+2446960465024
+---------------------------------------------------------------------------
 
+a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] for a output is  a=[1,2,3,4,5,10,9,8,7,6]
+
+mid=len(a)//2
+b=[]
+for i in range(1,len(a)):
+    if i<mid+1:
+        b.append(i)
+        continue
+
+    else:
+        for j in a[::-1]:
+            if j!=5:
+                b.append(j)
+                continue
+            break
+    break
+print(b)
+------------------------------------
+output:
+[1, 2, 3, 4, 5, 10, 9, 8, 7, 6]
+------------------------------------------------------------------
 
 
 
