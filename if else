@@ -1,0 +1,275 @@
+if(False):
+    print("yes")
+else:
+    print("No")
+------------------------------------------
+output: no
+-------------------------------
+if(True):
+    print("yes")
+else:
+    print("No")
+-------------------------------------------------------
+yes
+---------------------------------------------
+name=input()
+Alive=input("Alive or no:")
+if (Alive=="yes"):
+    print(name," meets Priya")
+else:
+    print(name,"weds Meghna")
+--------------------------------------
+kumar
+Alive or no: yes
+kumar  meets Priya
+--------------------------------------------------------
+name=input('name:')
+mark=int(input('mark:'))
+if (mark>35):
+    print("Pass")
+
+else:
+    print(name, " is fail")
+-------------------------------------------
+name: raj
+mark: 32
+raj  is fail
+----------------------------------------------
+name=input('name:')
+income=int(input('income:'))
+if(income>7000):
+    print(name,"scholarship is available for you")
+
+else:
+    print(name,"scholarship is not available for you")
+-----------------------------------------------------------------------------
+name: raju
+income: 32000
+raju scholarship is available for you
+------------------------------------------------------------------------------------
+n=int(input('number:'))
+if (n % 3==0 and n%5==0):
+    print(n,"is divisible by 3 and 5")
+
+else:
+    print(n,"is not divisible by 3 and 5")
+------------------------------------------------
+
+---------------------------------------------------------------
+n=int(input("number"))
+if n%2==0:
+    print(n, "is even")
+
+else:
+    print(n,"is odd")
+--------------------------------
+n=2
+2 is even
+-----------------------------
+s=int(input('score:'))
+if (s<35):
+    print('poor student')
+if (s>=35 and s<70):
+    print('average student')
+if (s>70):
+    print('good student')
+----------------------------------------
+score:45
+average student
+score:76
+good student
+------------------------------
+
+s=int(input('mark:'))
+if (s<35):
+    print('fail')
+elif (s>=35 and s<60):
+    print('average student')
+
+elif (s>60 and s<80):
+    print('good student')
+
+elif (s>80 and s<90):
+    print('distinction student')
+else:
+    print('rank holder student')
+-------------------------------------------------------
+mark:32
+fail
+mark:45
+average student
+mark:64
+good student
+mark:87
+distinction student
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
